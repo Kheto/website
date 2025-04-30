@@ -1,0 +1,11 @@
+#sheshere {
+    background-image: url("emojer_transparent.png");
+    min-width: 372px;
+    min-height: 684px;
+}
+
+.hovel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
