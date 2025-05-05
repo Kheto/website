@@ -1,14 +1,22 @@
 #sheshere {
-    background-image: url("emojer_shiny.gif");
+    background-image: url("emojer_shiny_stand.gif");
     background-size: contain;
     min-width: 372px;
     min-height: 684px;
+}
+
+#sheshere:hover{
+    background-image: url("emojer_shiny_run.gif");
 }
 
 .hovel {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.giblets{
+    padding-left: 20%;
 }
 
 body{
