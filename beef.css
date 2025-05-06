@@ -8,6 +8,10 @@
 #sheshere:hover{
     background-image: url("emojer_shiny_run.gif");
 }
+body:after {
+    display: none;
+    content: url('emojer_shiny_run.gif');
+   }
 
 .hovel {
     display: flex;
@@ -19,7 +23,15 @@
     padding-left: 20%;
 }
 
+h1{
+    color: crimson
+}
+
+a{
+    color: aqua;
+}
+
 body{
     background-color: hotpink;
-    color: crimson;
+    color: gold;
 }
