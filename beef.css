@@ -5,13 +5,14 @@
     min-height: 684px;
 }
 
-#sheshere:hover{
+#sheshere:hover {
     background-image: url("emojer_shiny_run.gif");
 }
+
 body:after {
     display: none;
     content: url('emojer_shiny_run.gif');
-   }
+}
 
 .hovel {
     display: flex;
@@ -19,19 +20,24 @@ body:after {
     align-items: center;
 }
 
-.giblets{
+.giblets {
     padding-left: 20%;
 }
 
-h1{
-    color: crimson
+h1 > a {
+    color: crimson;
+    text-decoration: none;
 }
 
-a{
+a {
     color: aqua;
 }
 
-body{
+p {
+    max-width: 50%;
+}
+
+body {
     background-color: hotpink;
     color: gold;
 }
