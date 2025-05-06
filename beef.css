@@ -45,3 +45,7 @@ body {
     background-color: hotpink;
     color: gold;
 }
+
+li {
+    list-style-type: lower-greek;
+}
