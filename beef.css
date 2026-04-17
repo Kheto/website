@@ -1,0 +1,52 @@
+#sheshere {
+    background-image: url("emojer_shiny_stand.gif");
+    background-size: contain;
+    min-width: 372px;
+    min-height: 684px;
+}
+
+#sheshere:hover {
+    background-image: url("emojer_shiny_run.gif");
+}
+
+body:after {
+    display: none;
+    content: url('emojer_shiny_run.gif');
+}
+
+.hovel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.giblets {
+    padding-left: 20%;
+}
+
+h1 > a {
+    color: crimson;
+    text-decoration: none;
+}
+
+h1{
+    color: crimson;
+}
+
+a {
+    color: aqua;
+}
+
+p {
+    max-width: 50%;
+}
+
+body {
+    background-color: hotpink;
+    color: gold;
+}
+
+li {
+    list-style-type: lower-greek;
+    padding:10px;
+}
